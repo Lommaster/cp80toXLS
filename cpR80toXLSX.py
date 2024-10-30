@@ -283,7 +283,7 @@ args = parser.parse_args()
 
 targzfile = args.gztarfile
 
-print('cpR80toXLSX ver. 2.1')
+print('cpR80toXLSX ver. 1.0')
 print('https://github.com/Lommaster/cpR80toXLSX\n')
 
 with tarfile.open(targzfile, "r:gz") as tar:
@@ -310,9 +310,6 @@ with tarfile.open(targzfile, "r:gz") as tar:
     network_json_file = json.loads(network_file_byte)
 
     # Open Excel-file
-
-    ### ???? Проверить если файл существует открыть с другим именем или вывести предупреждение
-
     # Create excel-file
     workbook = xlsxwriter.Workbook(package_name)
     
