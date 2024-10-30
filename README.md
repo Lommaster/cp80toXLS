@@ -5,8 +5,8 @@ Conversion output show_policy util from Check Point R80 to excel-file
 positional arguments:
   gztarfile     archive file of FW policy Check Point R80
 
-options:
-  -h, --help    show this help message and exit
-  -gr, --group  DON'T expand group composition
-  -gl, --glb    include global rules from policy
-  -nt, --nat    include nat rules from policy
+options:<BR>
+<p style="margin-left: 20px">-h, --help    show this help message and exit</p>
+-gr, --group  DON'T expand group composition<BR>
+-gl, --glb    include global rules from policy<BR>
+-nt, --nat    include nat rules from policy
